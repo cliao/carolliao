@@ -464,18 +464,6 @@
      note.style.display = 'none';
     }, false);
     </script>
-    
-  <script src="js/jquery.mousewheel.js"></script>
-  <script>
-  $(function(){
-    $("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
-    $(".post").wrap("<td></td>");
-    $("body").mousewheel(function(event, delta) {
-      this.scrollLeft -= (delta * 30);
-      event.preventDefault();
-    });   
-  });
-  </script>
 
   <!-- Fade nav in -->
 <script type="text/javascript">
