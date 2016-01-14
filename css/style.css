@@ -1,0 +1,279 @@
+/* ––––––––––––––––––––––––––––
+   GENERAL STYLES
+   –––––––––––––––––––––––––––– */
+
+body {
+    font-family: 'Fira Mono', sans-serif;
+    font-size: .9rem;
+    background-color: #EDEDED;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.row {
+    margin-bottom: 1rem;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+img:hover {
+    cursor: crosshair;
+    opacity: .9;
+}
+
+/* ––––––––––––––––––––––––––––
+   TYPOGRAPHY
+   –––––––––––––––––––––––––––– */
+
+p {
+    font-size: .9rem;
+    color: #424242;
+
+}
+a {
+    color: #1D1D7B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1D1D7B;
+    cursor: crosshair;
+    opacity: .8;
+}
+
+a:visited {
+    color:#1D1D7B;
+    text-decoration: none;
+}
+
+a:active {
+    color:#1D1D7B;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Fira Mono', serif;
+    font-size: .9rem;
+    line-height: 2.0rem;
+}
+h2 {
+    font-size: .9rem;
+    color: #1D1D7B;
+}
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.8rem;
+    color:#1D1D7B;
+    margin-bottom: 14px;
+} 
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+} 
+h5 {} h6 {} 
+
+
+/* ––––––––––––––––––––––––––––
+   NAVIGATION
+   –––––––––––––––––––––––––––– */
+nav{
+    display: none;
+}
+.menu {
+    color: #1D1D7B;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    padding: 20px 60px 0 60px;
+}
+.menu a {
+    margin-right: 30px;
+    border-bottom: solid 1px;
+}
+
+.menu-white {
+    color: #fff;
+    z-index: 1;
+    position: fixed;
+    padding: 20px 60px 0 60px;
+    top: 0;
+    opacity: 0;
+    right: 0;
+    left: 0;
+}
+.menu-white a {
+    margin-right: 30px;
+    color: #fff;
+    border-bottom: solid 1px;
+}
+
+.fade {
+    opacity: 0;
+}
+.show {
+    opacity: 1;
+}
+
+.transition {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.side {
+    position: fixed;
+    top: 60%;
+    left: 45px;
+    text-align: right;
+    white-space: nowrap;
+    color: #1D1D7B;
+    z-index: 1;
+    display: none;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg)
+}
+
+/* ––––––––––––––––––––––––––––
+   SECTIONS
+   –––––––––––––––––––––––––––– */
+
+#home {
+    height: 100vh;
+    padding-top: 25vh;
+    color: #EDEDED;    
+    background: #1D1D7B;
+}
+
+#home a {
+    color:#EDEDED;
+    border-bottom: solid 2px;
+}
+
+#work {
+}
+
+#misc{
+    height: 900px;
+    background-color: #ffffff;
+}
+
+#contact{
+    height: 75vh;
+    padding-top: 20vh;
+    color: #EDEDED;    
+    background: #1D1D7B;
+}
+
+#contact a{
+    color:#EDEDED;
+    border-bottom: solid 2px;
+}
+
+#section2{
+    background-color: #f7f7f7;
+}
+
+#section4{
+    background-color: #f7f7f7;
+}
+
+#section6{
+    background-color: #f7f7f7;
+}
+
+/* ––––––––––––––––––––––––––––
+   PROJECTS
+   –––––––––––––––––––––––––––– */
+.caption {
+    margin-bottom: 130px;
+}
+
+.inline {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 90%;
+    display: none;
+}
+
+.shadow{
+    box-shadow: -10px 10px 25px #AAAAAA;
+    width: 50%
+}
+
+/* ––––––––––––––––––––––––––––
+   PRELOADER
+   –––––––––––––––––––––––––––– */
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: #1D1D7B
+                url('../img/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+ 
+
+/* ––––––––––––––––––––––––––––
+   MEDIA QUERIES
+   –––––––––––––––––––––––––––– */
+
+@media (min-width: 768px) {
+h4 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+  img {
+  }
+  .shadow{
+  width: 100%;    
+  }
+  .side{
+    display: inline;
+  }
+
+  nav{display: inline;}
+}
