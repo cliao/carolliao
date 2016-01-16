@@ -226,3 +226,65 @@ jQuery(document).ready(function($){
 
 
     });
+
+
+// 
+// FADE IN NAV
+// 
+
+  $(window).scroll(function() {
+// # = The point you would like to fade the blue nav in.
+  
+  if ($(window).scrollTop() > 500 ){
+    
+    $('.fade').addClass('show');
+    
+  } else {
+    
+    $('.fade').removeClass('show');
+    
+  };    
+});
+
+$('.scroll').on('click', function(e){   
+    e.preventDefault()
+    
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
+
+
+ $(window).scroll(function() {
+// # = The point you would like to fade the white nav out.
+  
+  if ($(window).scrollTop() > 30 ){
+    
+    $('.menu-white').removeClass('show');
+    
+  } else {
+    
+    $('.menu-white').addClass('show');
+    
+  };    
+});
+
+$('.scroll').on('click', function(e){   
+    e.preventDefault()
+    
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
+
+
+// 
+// PRELOADER
+// 
+ $body = $("body");
+
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading");    },
+     ajaxStop: function() { $body.removeClass("loading"); }    
+});
+

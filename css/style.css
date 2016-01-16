@@ -5,10 +5,12 @@
 body {
     font-family: 'Fira Mono', sans-serif;
     font-size: .9rem;
-    background-color: #EDEDED;
+    background-color: #EAEAEF;
     max-width: 100%;
     overflow-x: hidden;
+    color: #1D1D7B;
 }
+
 .row {
     margin-bottom: 1rem;
 }
@@ -29,10 +31,12 @@ img:hover {
 
 /* ––––––––––––––––––––––––––––
    TYPOGRAPHY
+   TYPOGRAPHY
    –––––––––––––––––––––––––––– */
 
 p {
     font-size: .9rem;
+    line-height: 1.6rem;
     color: #424242;
 
 }
@@ -60,7 +64,7 @@ a:active {
 h1 {
     font-family: 'Fira Mono', serif;
     font-size: .9rem;
-    line-height: 2.0rem;
+    line-height: 1.6rem;
 }
 h2 {
     font-size: .9rem;
@@ -160,12 +164,12 @@ nav{
 #home {
     height: 100vh;
     padding-top: 25vh;
-    color: #EDEDED;    
+    color: #EAEAEF;    
     background: #1D1D7B;
 }
 
 #home a {
-    color:#EDEDED;
+    color:#EAEAEF;
     border-bottom: solid 2px;
 }
 
@@ -173,32 +177,33 @@ nav{
 }
 
 #misc{
-    height: 900px;
+    height: auto;
+    padding: 120px 0 200px 0;
     background-color: #ffffff;
 }
 
 #contact{
-    height: 75vh;
-    padding-top: 20vh;
-    color: #EDEDED;    
+    height: auto;
+    padding: 120px 0 200px 0;
+    color: #EAEAEF;    
     background: #1D1D7B;
 }
 
 #contact a{
-    color:#EDEDED;
+    color:#EAEAEF;
     border-bottom: solid 2px;
 }
 
 #section2{
-    background-color: #f7f7f7;
+    background-color: #F5F5F7;
 }
 
 #section4{
-    background-color: #f7f7f7;
+    background-color: #F5F5F7;
 }
 
 #section6{
-    background-color: #f7f7f7;
+    background-color: #F5F5F7;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -220,6 +225,11 @@ nav{
     width: 50%
 }
 
+.follow{
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+}
 /* ––––––––––––––––––––––––––––
    PRELOADER
    –––––––––––––––––––––––––––– */
