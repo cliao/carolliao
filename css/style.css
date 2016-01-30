@@ -5,7 +5,7 @@
 body {
     font-family: 'Fira Mono', sans-serif;
     font-size: .9rem;
-    background-color: #EAEAEF;
+    background-color: #fcfcfc;
     max-width: 100%;
     overflow-x: hidden;
     color: #1D1D91;
@@ -22,10 +22,22 @@ ul {
 
 img {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 img:hover {
     cursor: crosshair;
+}
+
+.topsm{
+    margin-top: 20px;
+}
+
+.topmd{
+    margin-top: 20px;
+}
+
+.toplg {
+    margin-top: 20px;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -173,13 +185,13 @@ nav{
 #home {
     height: 100vh;
     padding-top: 25vh;
-    color: #EAEAEF;    
+    color: #ffffff;    
     background: #1D1D91;
     text-align: center;
 }
 
 #home a {
-    color:#EAEAEF;
+    color:#ffffff;
     border-bottom: solid 2px;
 }
 
@@ -195,24 +207,24 @@ nav{
 #contact{
     height: auto;
     padding: 120px 0 200px 0;
-    color: #EAEAEF;    
+    color: #ffffff;    
     background: #1D1D91;
 }
 
 #contact a{
-    color:#EAEAEF;
+    color:#ffffff;
     border-bottom: solid 2px;
 }
 
-#section1{
+#section2{
     background-color: #F5F5F7;
 }
 
-#section3{
+#section4{
     background-color: #F5F5F7;
 }
 
-#section5{
+#section6{
     background-color: #F5F5F7;
 }
 
@@ -230,10 +242,6 @@ nav{
     display: none;
 }
 
-.shadow{
-    box-shadow: -10px 10px 25px #AAAAAA;
-    width: 50%
-}
 
 .follow{
     padding: 0;
@@ -287,12 +295,21 @@ h3 {
 }
   img {
   }
-  .shadow{
-  width: 100%;    
-  }
   .side{
     display: inline;
   }
 
   nav{display: inline;}
+
+.topsm{
+    margin-top: 60px;
+}
+
+.topmd{
+    margin-top: 200px;
+}
+
+.toplg {
+    margin-top: 350px;
+}
 }
