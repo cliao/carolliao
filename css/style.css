@@ -198,15 +198,15 @@ nav{
 #work {
 }
 
-#misc{
+#profile{
     height: auto;
-    padding: 120px 0 200px 0;
+    padding: 110px 0 180px 0;
     background-color: #ffffff;
 }
 
 #contact{
     height: auto;
-    padding: 120px 0 200px 0;
+    padding: 110px 0 180px 0;
     color: #ffffff;    
     background: #1D1D91;
 }
@@ -233,6 +233,27 @@ nav{
    –––––––––––––––––––––––––––– */
 .caption {
     margin-bottom: 80px;
+}
+
+.button {
+    border: 1px solid #1D1D91;
+    color:#1D1D91;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #1D1D91;
+    opacity: 1;
+    cursor: crosshair;
+    color: #ffffff;
+}
+
+.button:visited {
+    text-decoration: none;
 }
 
 .inline {
