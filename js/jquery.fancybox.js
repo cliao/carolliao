@@ -54,7 +54,7 @@
 
 		defaults: {
 			padding : 15,
-			margin  : 40,
+			margin  : 20,
 
 			width     : 800,
 			height    : 600,
@@ -62,7 +62,7 @@
 			minHeight : 100,
 			maxWidth  : 9999,
 			maxHeight : 9999,
-			pixelRatio: 1, // Set to 2 for retina display support
+			pixelRatio: 2, // Set to 2 for retina display support
 
 			autoSize   : true,
 			autoHeight : false,
@@ -80,7 +80,7 @@
 
 			arrows     : true,
 			closeBtn   : true,
-			closeClick : false,
+			closeClick : true,
 			nextClick  : false,
 			mouseWheel : true,
 			autoPlay   : false,

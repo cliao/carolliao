@@ -5,7 +5,7 @@
 body {
     font-family: 'Fira Mono', sans-serif;
     font-size: .9rem;
-    background-color: #fcfcfc;
+    background-color: #EAEAEF;
     max-width: 100%;
     overflow-x: hidden;
     color: #1D1D91;
@@ -107,6 +107,29 @@ h5 {
     } 
 
 h6 {} 
+
+
+button {
+    border: 1px solid #1D1D91;
+    color:#1D1D91;
+    background-color: transparent;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #1D1D91;
+    opacity: 1;
+    cursor: crosshair;
+    color: #ffffff;
+}
+
+button:visited {
+    text-decoration: none;
+}
 
 
 /* ––––––––––––––––––––––––––––
@@ -216,16 +239,16 @@ nav{
     border-bottom: solid 2px;
 }
 
-#section2{
-    background-color: #F5F5F7;
+#section1{
+    background-color: #F7F6F8;
 }
 
-#section4{
-    background-color: #F5F5F7;
+#section3{
+    background-color: #F7F6F8;
 }
 
-#section6{
-    background-color: #F5F5F7;
+#section5{
+    background-color: #F7F6F8;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -235,32 +258,12 @@ nav{
     margin-bottom: 80px;
 }
 
-.button {
-    border: 1px solid #1D1D91;
-    color:#1D1D91;
-    padding: 5px 20px 5px 20px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.button:hover {
-    text-decoration: none;
-    text-align: center;
-    background-color: #1D1D91;
-    opacity: 1;
-    cursor: crosshair;
-    color: #ffffff;
-}
-
-.button:visited {
-    text-decoration: none;
-}
-
 .inline {
     margin-left: auto;
     margin-right: auto; 
-    width: 90%;
+    width: 95%;
     display: none;
+    text-align: center;
 }
 
 
@@ -268,6 +271,22 @@ nav{
     padding: 0;
 }
 
+
+.columns {
+    margin-top: 30px;
+    text-align: left;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.continue {
+    width: 98%;
+    margin-top:30px;
+}
 /* ––––––––––––––––––––––––––––
    PRELOADER
    –––––––––––––––––––––––––––– */
