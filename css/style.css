@@ -47,7 +47,7 @@ img:hover {
 
 p {
     font-size: .9rem;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     color: #424242;
 
 }
@@ -116,6 +116,7 @@ button {
     padding: 5px 20px 5px 20px;
     margin-top: 10px;
     text-decoration: none;
+    z-index: 1000;
 }
 
 button:hover {
@@ -261,7 +262,7 @@ nav{
 .inline {
     margin-left: auto;
     margin-right: auto; 
-    width: 95%;
+    width: 90%;
     display: none;
     text-align: center;
 }
@@ -273,19 +274,13 @@ nav{
 
 
 .columns {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: left;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
 }
 
 .continue {
     width: 98%;
-    margin-top:30px;
+    margin-top:40px;
 }
 /* ––––––––––––––––––––––––––––
    PRELOADER
@@ -351,5 +346,17 @@ h3 {
 
 .toplg {
     margin-top: 350px;
+}
+
+
+.columns {
+    margin-top: 30px;
+    text-align: left;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
 }
 }
