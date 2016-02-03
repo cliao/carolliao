@@ -169,7 +169,24 @@ nav{
     color: #fff;
     border-bottom: solid 1px;
 }
+.hero {
+   background-color: #1D1D91; 
+   opacity: 0;
+   height:120vh;
+}
 
+.herotext{
+    position: fixed;
+    margin:auto;
+    padding-top: 25vh;
+    color: #ffffff;  
+    text-align: center; 
+}
+
+.herotext a {
+    color:#ffffff;
+    border-bottom: solid 2px;
+}
 .fade {
     opacity: 0;
 }
@@ -209,20 +226,10 @@ nav{
    –––––––––––––––––––––––––––– */
 
 #home {
-    height: 100vh;
-    padding-top: 25vh;
-    color: #ffffff;    
-    background-color: #1D1D91;
-    text-align: center;
 }
 
-#home a {
-    color:#ffffff;
-    border-bottom: solid 2px;
-}
-
-#intro {
-    margin:180px 0 160px;
+#statement {
+    margin:-100px 0 160px;
 }
 #work {
 }
