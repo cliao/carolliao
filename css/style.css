@@ -342,6 +342,12 @@ h3 {
 }
   img {
   }
+  .photo {
+    padding: 0;
+    -webkit-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+    box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+  }
   .side{
     display: inline;
   }
@@ -356,9 +362,7 @@ h3 {
     margin-top: 350px;
 }
 
-.toplg {
-    margin-top: 330px;
-}
+
 
 
 .columns {
