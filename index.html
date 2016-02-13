@@ -390,27 +390,24 @@ In my spare time, I like to travel as much as possible.</h3>
  <!-- –––––––––––––––––––––––––––– 
      JAVASCRIPT
      –––––––––––––––––––––––––––– -->
-
 <!-- SMOOTH SCROLL TO ANCHOR POINT
  -->
+    <script type="text/javascript">
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
 
-<script type="text/javascript">
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 250);
-            return false;
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+               if (target.length) {
+                 $('html,body').animate({
+                     scrollTop: target.offset().top
+                }, 250);
+                return false;
+            }
         }
-    }
-});
-</script>
+    });
 
-
+    </script>
   </body>
 </html>
