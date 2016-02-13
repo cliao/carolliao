@@ -22,7 +22,7 @@ ul {
 
 img {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 img:hover {
     cursor: crosshair;
@@ -172,7 +172,7 @@ nav{
 .hero {
    background-color: #1D1D91; 
    opacity: 0;
-   height:120vh;
+   height:180vh;
 }
 
 .herotext{
@@ -229,7 +229,7 @@ nav{
 }
 
 #statement {
-    margin:-100px 0 160px;
+    margin:-95vh 0 0px;
 }
 #work {
 }
@@ -349,15 +349,15 @@ h3 {
   nav{display: inline;}
 
 .topsm{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .topmd{
-    margin-top: 200px;
+    margin-top: 350px;
 }
 
 .toplg {
-    margin-top: 350px;
+    margin-top: 330px;
 }
 
 
