@@ -150,7 +150,6 @@ nav{
 }
 .menu a {
     margin-left:40px;
-    border-bottom: solid 1px;
 }
 
 .menu-white {
@@ -165,7 +164,6 @@ nav{
 .menu-white a {
     margin-left:40px;
     color: #ffffff;
-    border-bottom: solid 1px;
 }
 .hero {
    background-color: #1D1D91; 
@@ -182,8 +180,8 @@ nav{
 
 .herotext a {
     color:#ffffff;
-    border-bottom: solid 2px;
 }
+
 .fade {
     opacity: 0;
 }
@@ -248,7 +246,6 @@ nav{
 
 #contact a{
     color:#ffffff;
-    border-bottom: solid 2px;
 }
 
 #section2{
@@ -360,8 +357,6 @@ h3 {
 .topmd{
     margin-top: 350px;
 }
-
-
 
 
 .columns {
