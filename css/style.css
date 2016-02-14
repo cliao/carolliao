@@ -92,8 +92,8 @@ h2 {
 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 2.2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
 } 
 h4 {
     font-family: 'Fira Sans', sans-serif;
@@ -140,7 +140,6 @@ nav{
     display: none;
 }
 .menu {
-    color: #1D1D91;
     z-index: 1;
     position: fixed;
     top: 0;
@@ -155,7 +154,6 @@ nav{
 }
 
 .menu-white {
-    color: #fff;
     z-index: 1;
     position: fixed;
     padding: 30px 60px 0 60px;
@@ -166,7 +164,7 @@ nav{
 }
 .menu-white a {
     margin-left:40px;
-    color: #fff;
+    color: #ffffff;
     border-bottom: solid 1px;
 }
 .hero {
@@ -180,7 +178,6 @@ nav{
     margin:auto;
     padding-top: 30vh;
     color: #ffffff;  
-    text-align: center; 
 }
 
 .herotext a {
@@ -229,9 +226,11 @@ nav{
 }
 
 #statement {
-    margin:-95vh 0 0px;
+    margin-top: -98vh;
+    
 }
 #work {
+    margin-top: -55vh;
 }
 
 #profile{
