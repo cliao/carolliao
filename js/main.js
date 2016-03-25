@@ -235,7 +235,7 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
 // # = The point you would like to fade the blue nav in.
   
-  if ($(window).scrollTop() > 100 ){
+  if ($(window).scrollTop() > 80 ){
     
     $('.fade').addClass('show');
     

@@ -53,7 +53,7 @@ p {
 }
 a {
     color: #1D1D91;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -165,6 +165,7 @@ nav{
     margin-left:40px;
     color: #ffffff;
 }
+
 .hero {
    background-color: #1D1D91; 
    opacity: 0;
@@ -224,7 +225,8 @@ nav{
 }
 
 #statement {
-    margin-top: -98vh;
+    margin-top: -90vh;
+    margin-bottom:250px;
     
 }
 #work {
