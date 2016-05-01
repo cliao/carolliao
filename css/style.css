@@ -105,10 +105,14 @@ h4 {
 h5 {
     font-size: .9rem;
     line-height: 1rem;
-    color: #ffffff;
+    color: #1D1D91;
     } 
 
-h6 {} 
+h6 {
+    font-size: .9rem;
+    line-height: 1rem;
+    color: #ffffff;
+} 
 
 
 button {
@@ -226,18 +230,16 @@ nav{
 }
 
 #statement {
-    margin-top: -98vh;
-    margin-bottom: 400px;
-    
+    margin-top: -90vh;
 }
 #work {
-    margin-top: -55vh;
+    margin-top: -40vh;
 }
 
 #profile{
     height: auto;
-    padding: 110px 0 180px 0;
-    background-color: #ffffff;
+    padding: 110px 0 140px 0;
+    background-color: #fff;
 }
 
 #contact{
@@ -252,15 +254,15 @@ nav{
 }
 
 #section2{
-    background-color: #f5f5f9;
+    background-color: #F1F0EF;
 }
 
 #section4{
-    background-color: #f5f5f9;
+    background-color: #F1F0EF;
 }
 
 #section6{
-    background-color: #f5f5f9;
+    background-color: #F1F0EF;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -290,9 +292,30 @@ nav{
 }
 
 .continue {
+    border: 1px solid #1D1D91;
+    color:#1D1D91;
+    background-color: transparent;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
     width: 98%;
     margin-top:40px;
 }
+
+.continue:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: #1D1D91;
+    opacity: 1;
+    cursor: crosshair;
+    color: #ffffff;
+}
+
+.continue:visited {
+    text-decoration: none;
+}
+
 /* ––––––––––––––––––––––––––––
    PRELOADER
    –––––––––––––––––––––––––––– */

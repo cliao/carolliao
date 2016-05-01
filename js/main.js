@@ -235,7 +235,7 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
 // # = The point you would like to fade the blue nav in.
   
-  if ($(window).scrollTop() > 80 ){
+  if ($(window).scrollTop() > 40 ){
     
     $('.fade').addClass('show');
     
@@ -278,9 +278,9 @@ $('.scroll').on('click', function(e){
 });
 
  $(window).scroll(function() {
-// # = The point you would like to fade the white nav out.
+// # = The point you would like to fade the hero out.
   
-  if ($(window).scrollTop() > 30 ){
+  if ($(window).scrollTop() > 40 ){
     
     $('.hero').removeClass('show');
     
@@ -296,7 +296,7 @@ $('.scroll').on('click', function(e){
     
   $('html, body').animate({
       scrollTop : $(this.hash).offset().top
-    }, 1500);
+    }, 0);
 });
 
 // 
