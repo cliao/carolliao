@@ -280,7 +280,7 @@ $('.scroll').on('click', function(e){
  $(window).scroll(function() {
 // # = The point you would like to fade the hero out.
   
-  if ($(window).scrollTop() > 40 ){
+  if ($(window).scrollTop() > 50 ){
     
     $('.hero').removeClass('show');
     

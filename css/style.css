@@ -172,7 +172,12 @@ nav{
 }
 
 .hero {
-   background-color: #1D1D91; 
+/*   background-color: #1D1D91; */
+
+background: #7c92cc; /* Old browsers */
+background: -moz-linear-gradient(top,  #7c92cc 0%, #e0b7bb 70%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7c92cc 0%,#e0b7bb 70%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    opacity: 0;
    height:180vh;
 }
@@ -254,15 +259,15 @@ nav{
 }
 
 #section2{
-    background-color: #F1F0EF;
+    background-color: #F0F3F7;
 }
 
 #section4{
-    background-color: #F1F0EF;
+    background-color: #F0F3F7;
 }
 
 #section6{
-    background-color: #F1F0EF;
+    background-color: #F0F3F7;
 }
 
 /* ––––––––––––––––––––––––––––

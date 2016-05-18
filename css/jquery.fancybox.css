@@ -73,7 +73,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background-color: rgba(255,255,255,.3);
+	background-color: rgba(240,240,250,.85);
 }
 
 .fancybox-overlay-fixed {

@@ -19,7 +19,7 @@ Main components
 .cd-section {
   min-height: 100%;
   position: relative;
-  padding: 7rem 0 7rem;
+  padding: 9rem 0 10rem;
 }
 /*.cd-section:nth-of-type(odd) {
   background-color: #3e3947;
