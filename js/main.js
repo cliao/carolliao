@@ -256,15 +256,15 @@ $('.scroll').on('click', function(e){
 
 
  $(window).scroll(function() {
-// # = The point you would like to fade the white nav out.
+// # = The point you would like to fade the white nav to blue.
   
-  if ($(window).scrollTop() > 30 ){
+  if ($(window).scrollTop() > 40 ){
     
-    $('.menu-white').removeClass('show');
+    $('.menu').removeClass('white');
     
   } else {
     
-    $('.menu-white').addClass('show');
+    $('.menu').addClass('white');
     
   };    
 });
