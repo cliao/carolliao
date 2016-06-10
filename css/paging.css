@@ -137,7 +137,7 @@ Main components
 }
 
 /* Touch devices */
-.touch .cd-nav-trigger {
+/*.touch .cd-nav-trigger {
   display: block;
   z-index: 2;
   position: fixed;
@@ -259,7 +259,7 @@ Main components
 .touch #cd-vertical-nav li:last-child a {
   border-bottom: none;
 }
-
+*/
 @media only screen and (min-width: 768px) {
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
