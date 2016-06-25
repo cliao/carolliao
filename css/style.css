@@ -183,7 +183,6 @@ background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, 
 }
 
 .herotext{
-    position: fixed;
     padding-top: 150px;
     color: #ffffff;  
 }
