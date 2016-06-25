@@ -46,10 +46,10 @@ img:hover {
 
 p {
     font-size: .9rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
     color: #292929;
-
 }
+
 a {
     color: #1D1D91;
     text-decoration: underline;
@@ -91,8 +91,8 @@ h2 {
 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     text-align: center;
 } 
 h4 {
@@ -156,7 +156,7 @@ nav{
     left: 0;
 }
 .menu a {
-    margin-left:40px;
+    margin-left:25px;
 }
 
 .white a{
@@ -367,6 +367,9 @@ body.loading .modal {
    –––––––––––––––––––––––––––– */
 
 @media (min-width: 768px) {
+p {
+    line-height: 1.5rem;
+}
 
 h1 {
     font-size: 3rem;
@@ -402,6 +405,11 @@ h6 {
 .herotext{
     padding-top: 220px;
 }
+
+.menu a {
+    margin-left:40px;
+}
+
 
 .name {
     visibility: visible;
