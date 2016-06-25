@@ -19,7 +19,7 @@ Main components
 .cd-section {
   min-height: 100%;
   position: relative;
-  padding: 9rem 0 10rem;
+  padding: 4rem 0 4rem;
 }
 /*.cd-section:nth-of-type(odd) {
   background-color: #3e3947;
@@ -35,8 +35,13 @@ Main components
 }*/
 
 @media only screen and (min-width: 768px) {
+.cd-section {
+
+  padding: 9rem 0 10rem;
+}
 
 }
+
 
 .cd-scroll-down {
   position: absolute;
