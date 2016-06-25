@@ -76,7 +76,7 @@ h1 {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#1D1D91;
     margin-bottom: 14px;
     text-align: center;
@@ -92,7 +92,7 @@ h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     font-size: 1.4rem;
-    line-height: 2.4rem;
+    line-height: 2rem;
     text-align: center;
 } 
 h4 {
@@ -107,12 +107,14 @@ h5 {
     font-size: .9rem;
     line-height: 1rem;
     color: #1D1D91;
+    text-align: center;
     } 
 
 h6 {
     font-size: .9rem;
     line-height: 1rem;
     color: #ffffff;
+    text-align: center;
 } 
 
 
@@ -159,6 +161,14 @@ nav{
 
 .white a{
     color:#ffffff;
+}
+
+.name {
+    visibility: hidden;
+}
+
+.nav {
+    text-align: center; 
 }
 
 .hero {
@@ -357,9 +367,22 @@ body.loading .modal {
    –––––––––––––––––––––––––––– */
 
 @media (min-width: 768px) {
+
+h1 {
+    font-size: 3rem;
+}
+
 h3 {
     font-size: 2rem;
     line-height: 3rem;
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
+}
+
+h6 {
     text-align: left;
 }
   img {
@@ -379,6 +402,15 @@ h3 {
 .herotext{
     padding-top: 220px;
 }
+
+.name {
+    visibility: visible;
+}
+
+.nav {
+    text-align:right;
+}
+
 .details {
     visibility: visible;
 }
