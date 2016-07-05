@@ -46,8 +46,8 @@ img:hover {
    –––––––––––––––––––––––––––– */
 
 p {
-    font-size: .9rem;
-    line-height: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     color: #292929;
 }
 
@@ -78,13 +78,13 @@ h1 {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color:#1D1D91;
     margin-bottom: 14px;
 }
 h2 {
     font-family: 'Fira Mono', serif;
-    font-size: .9rem;
+    font-size: 1.1rem;
     line-height: 1.6rem;
     color: #292929;
 }
@@ -374,11 +374,16 @@ body {
 }
 
 p {
+    font-size: .9rem;
     line-height: 1.5rem;
 }
 
 h1 {
     font-size: 3rem;
+}
+
+h2 {
+    font-size: .9rem;
 }
 
 h3 {
