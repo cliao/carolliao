@@ -165,18 +165,27 @@ nav{
     visibility: hidden;
 }
 
-.nav {
-}
-
 .hero {
 /*   background-color: #1D1D91; */
+    opacity: 0;
+    height:110vh;
+}
 
-background: #7c92cc; /* Old browsers */
-background: -moz-linear-gradient(top,  #7c92cc 0%, #e0b7bb 70%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #7c92cc 0%,#e0b7bb 70%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   opacity: 0;
-   height:110vh;
+.hero::before {
+    /* pseudo element */
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%; /* to make it bigger than the viewport */
+
+    background: #7c92cc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7c92cc 0%, #e0b7bb 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #7c92cc 0%,#e0b7bb 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    opacity: 0; /* for transition animations */
 }
 
 .herotext{
@@ -197,7 +206,12 @@ background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, 
 .fade {
     opacity: 0;
 }
+
 .show {
+    opacity: 1;
+}
+
+.show::before {
     opacity: 1;
 }
 
@@ -208,6 +222,12 @@ background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, 
     transition: all .4s ease-in-out;
 }
 
+.transition::before {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 
 .side {
     position: fixed;
@@ -325,6 +345,7 @@ background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, 
 
 .continue:visited {
     text-decoration: none;
+    color: #1D1D91;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -431,18 +452,18 @@ h6 {
 }
 
 .nav {
-    text-align:right;
+    text-align: right;
 }
 
 .details {
     visibility: visible;
 }
 
-.topsm{
+.topsm {
     margin-top: 40px;
 }
 
-.topmd{
+.topmd {
     margin-top: 100px;
 }
 
@@ -461,9 +482,8 @@ h6 {
     column-gap: 40px;
 }
 
-.menu{
+.menu {
     padding: 30px 60px 0 60px;
-
 }
 
 }

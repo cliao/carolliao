@@ -302,10 +302,18 @@ $('.scroll').on('click', function(e){
 // 
 // PRELOADER
 // 
- $body = $("body");
+$body = $("body");
 
 $(document).on({
-    ajaxStart: function() { $body.addClass("loading");    },
-     ajaxStop: function() { $body.removeClass("loading"); }    
+    ajaxStart: function() { 
+      $body.addClass("loading");
+    },
+     ajaxStop: function() { 
+      $body.removeClass("loading"); 
+    }    
+});
+
+$(document).ajaxStart(function() {
+    alert('ok');
 });
 
