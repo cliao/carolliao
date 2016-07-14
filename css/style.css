@@ -69,6 +69,10 @@ a:visited {
     text-decoration: none;
 }
 
+a:focused{
+    text-decoration: none;
+}
+
 a:active {
     color:#1D1D91;
     text-decoration: none;
@@ -345,7 +349,6 @@ nav{
 
 .continue:visited {
     text-decoration: none;
-    color: #1D1D91;
 }
 
 /* ––––––––––––––––––––––––––––
