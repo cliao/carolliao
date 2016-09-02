@@ -81,7 +81,7 @@ h1 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 2.3rem;
     color:#1D1D91;
     margin-bottom: 14px;
@@ -94,7 +94,7 @@ h2 {
 }
 h3 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1.2rem;
     line-height: 2rem;
 } 
@@ -189,12 +189,9 @@ nav{
     left: 0;
     width: 100%;
     height: 150%; /* to make it bigger than the viewport */
-
-    background: #7c92cc; /* Old browsers */
-    background: -moz-linear-gradient(top,  #7c92cc 0%, #e0b7bb 70%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #7c92cc 0%,#e0b7bb 70%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #7c92cc 0%,#e0b7bb 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
+    background-image: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: right top; 
     opacity: 0; /* for transition animations */
 }
 
@@ -277,7 +274,7 @@ nav{
     margin-top: -40vh;
 }
 
-#profile{
+#about{
     height: auto;
     padding: 110px 0 140px 0;
     background-color: #fff;
@@ -458,7 +455,6 @@ h6 {
 .menu a {
     margin-left:40px;
 }
-
 
 .name {
     visibility: visible;
