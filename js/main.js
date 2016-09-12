@@ -235,7 +235,7 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
 // # = The point you would like to fade the blue nav in.
   
-  if ($(window).scrollTop() > 40 ){
+  if ($(window).scrollTop() > 70 ){
     
     $('.fade').addClass('show');
     
@@ -258,7 +258,7 @@ $('.scroll').on('click', function(e){
  $(window).scroll(function() {
 // # = The point you would like to fade the white nav to blue.
   
-  if ($(window).scrollTop() > 40 ){
+  if ($(window).scrollTop() > 250 ){
     
     $('.menu').removeClass('white');
     
