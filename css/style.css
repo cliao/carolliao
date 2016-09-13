@@ -173,6 +173,10 @@ nav{
     padding-bottom: 10px;
 }
 
+.center {
+    text-align: center;
+}
+
 .white {
     background-color: transparent;
 }
