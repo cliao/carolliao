@@ -3,7 +3,7 @@
    –––––––––––––––––––––––––––– */
 
 body {
-    font-family: 'Space Mono', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: 1rem;
     background-color: #ffffff;
     max-width: 100%;
@@ -42,7 +42,8 @@ img:hover {
 }
 
 hr {
-    margin: 0 0 50px 0;
+    margin: 10px 0 25px 0;
+    border-color: #0503a4;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -59,6 +60,7 @@ a {
     color: #0503a4;
     text-decoration: underline;
     text-align: left;
+    font-family: 'Space Mono', sans-serif;
 }
 
 a:hover {
@@ -79,26 +81,22 @@ a:active {
     text-decoration: none;
 }
 h1 {
-    font-family: 'montserrat', sans-serif;
     font-weight: 500;
     font-size: 2.3rem;
     color:#0503a4;
     margin-bottom: 14px;
 }
 h2 {
-    font-family: 'Space Mono', serif;
     font-size: 1rem;
     line-height: 1.4rem;
     color: #292929;
 }
 h3 {
-    font-family: 'montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 2rem;
 } 
 h4 {
-    font-family: 'montserrat', sans-serif;
     margin-top: 50px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -107,6 +105,7 @@ h4 {
     text-align: left;
 } 
 h5 {
+    font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
     line-height: 1rem;
     color: #0503a4;
@@ -115,20 +114,21 @@ h5 {
 h6 {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-family: 'montserrat', sans-serif;
     font-weight: 300;
     color: #292929;
 } 
 
 
 button {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1rem;
     border: 1px solid #0503a4;
     color:#0503a4;
     background-color: transparent;
     padding: 5px 20px 5px 20px;
-    margin-top: 10px;
     text-decoration: none;
     text-align: center;
+    margin: 20px 0 120px;
 }
 
 button:hover {
@@ -253,6 +253,7 @@ nav{
 }
 
 .side {
+    font-family: 'Space Mono', sans-serif;
     position: fixed;
     top: 60%;
     left: 55px;
@@ -299,18 +300,6 @@ nav{
     color:#ffffff;
 }
 
-#section2{
-    background-color: #F4F6F9;
-}
-
-#section4{
-    background-color: #F4F6F9;
-}
-
-#section6{
-    background-color: #F4F6F9;
-}
-
 .statementtext{
     padding: 100px 0 50px;
 }
@@ -318,9 +307,6 @@ nav{
 /* ––––––––––––––––––––––––––––
    PROJECTS
    –––––––––––––––––––––––––––– */
-.caption {
-    margin-bottom: 80px;
-}
 
 .inline {
     margin-left: auto;
@@ -409,7 +395,6 @@ body.loading .modal {
 
 @media (min-width: 768px) {
 body {
-    text-align: center;
 }
 
 p {
@@ -422,21 +407,18 @@ h1 {
 }
 
 h2 {
-    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 h3 {
     font-size: 2rem;
     line-height: 3rem;
-    text-align: left;
 }
 
 h5 {
-    text-align: left;
 }
 
 h6 {
-    text-align: left;
 }
   img {
   }
@@ -466,6 +448,7 @@ h6 {
 
 .name {
     visibility: visible;
+    padding-left: 20px;
 }
 
 .nav {
