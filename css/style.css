@@ -41,6 +41,10 @@ img:hover {
     margin-top: 20px;
 }
 
+.hrspace {
+    margin-top: 80px;
+}
+
 hr {
     margin: 10px 0 25px 0;
     border-color: #0503a4;
@@ -106,7 +110,7 @@ h4 {
 } 
 h5 {
     font-family: 'Space Mono', sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 1rem;
     color: #0503a4;
     } 
@@ -284,25 +288,13 @@ nav{
 }
 
 #about{
-    height: auto;
     padding: 110px 0 140px 0;
-    background-color: #fff;
 }
 
 #contact{
-    height: auto;
     padding: 130px 0 140px 0;
-    color: #ffffff;    
-    background: #0503a4;
 }
 
-#contact a{
-    color:#ffffff;
-}
-
-.statementtext{
-    padding: 100px 0 50px;
-}
 
 /* ––––––––––––––––––––––––––––
    PROJECTS
@@ -314,11 +306,6 @@ nav{
     width: 90%;
     display: none;
     text-align: center;
-}
-
-
-.follow{
-    padding: 0;
 }
 
 
@@ -416,6 +403,7 @@ h3 {
 }
 
 h5 {
+    padding-top: 30px;
 }
 
 h6 {
@@ -448,7 +436,6 @@ h6 {
 
 .name {
     visibility: visible;
-    padding-left: 20px;
 }
 
 .nav {
