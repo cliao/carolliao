@@ -3,8 +3,8 @@
    –––––––––––––––––––––––––––– */
 
 body {
-    font-family: 'Fira Mono', sans-serif;
-    font-size: .9rem;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1rem;
     background-color: #ffffff;
     max-width: 100%;
     overflow-x: hidden;
@@ -13,7 +13,7 @@ body {
 }
 
 .row {
-    margin-bottom: .9rem;
+    margin-bottom: 1rem;
 }
 
 ol,
@@ -79,37 +79,35 @@ a:active {
     text-decoration: none;
 }
 h1 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     font-size: 2.3rem;
     color:#0503a4;
     margin-bottom: 14px;
 }
 h2 {
-    font-family: 'Fira Mono', serif;
+    font-family: 'Space Mono', serif;
     font-size: 1rem;
     line-height: 1.4rem;
     color: #292929;
 }
 h3 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 2rem;
 } 
 h4 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
     margin-top: 50px;
     letter-spacing: 1px;
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: left;
 } 
 h5 {
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1rem;
     color: #0503a4;
     } 
@@ -117,7 +115,7 @@ h5 {
 h6 {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 300;
     color: #292929;
 } 
@@ -195,21 +193,20 @@ nav{
 .hero::before {
     /* pseudo element */
     content: ' ';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 150%; /* to make it bigger than the viewport */
     background-image: url("../img/bg3.jpg");
     background-repeat: no-repeat;
-    background-position: right top; 
+    background-size: 100%;
     opacity: 0; /* for transition animations */
 }
 
 .herotext{
     padding-top: 100px;
     color: #ffffff;  
-    position: fixed;
     text-align: left;
 }
 
@@ -416,7 +413,7 @@ body {
 }
 
 p {
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
@@ -425,7 +422,7 @@ h1 {
 }
 
 h2 {
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 h3 {
