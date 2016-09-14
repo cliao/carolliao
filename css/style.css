@@ -193,7 +193,7 @@ nav{
 }
 
 .hero {
-/*   background-color: #0503a4; */
+   background-color: #0503a4; 
     opacity: 0;
     height:110vh;
 }
@@ -206,9 +206,9 @@ nav{
     left: 0;
     width: 100%;
     height: 150%; /* to make it bigger than the viewport */
-    background-image: url("../img/bg3.jpg");
+/*    background-image: url("../img/bg3.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;*/
     opacity: 0; /* for transition animations */
 }
 
