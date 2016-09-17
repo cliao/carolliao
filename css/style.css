@@ -8,7 +8,7 @@ body {
     background-color: #ffffff;
     max-width: 100%;
     overflow-x: hidden;
-    color: #0503a4;
+    color: #053898;
     text-align: left;
 }
 
@@ -24,9 +24,6 @@ ul {
 img {
     width: 100%;
     margin-bottom: 80px;
-}
-img:hover {
-    cursor: crosshair;
 }
 
 .topsm{
@@ -47,7 +44,7 @@ img:hover {
 
 hr {
     margin: 10px 0 25px 0;
-    border-color: #0503a4;
+    border-color: #292929;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -61,14 +58,14 @@ p {
 }
 
 a {
-    color: #0503a4;
+    color: #053898;
     text-decoration: underline;
     text-align: left;
     font-family: 'Space Mono', sans-serif;
 }
 
 a:hover {
-    color: #ff205a;
+    color: #ff7770;
     cursor: crosshair;
 }
 
@@ -81,19 +78,17 @@ a:focused{
 }
 
 a:active {
-    color:#0503a4;
+    color:#053898;
     text-decoration: none;
 }
 h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    color: #292929;
+    color: #053898;
     margin-bottom: 14px;
 }
 h2 {
-    font-size: 1rem;
-    line-height: 1.4rem;
-    color: #292929;
+
 }
 h3 {
     font-weight: 400;
@@ -110,9 +105,9 @@ h4 {
 } 
 h5 {
     font-family: 'Space Mono', sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
-    color: #0503a4;
+    color: #053898;
     } 
 
 h6 {
@@ -123,37 +118,34 @@ h6 {
 } 
 
 
-button {
+.button {
     font-family: 'Space Mono', sans-serif;
-    font-size: 1rem;
-    border: 1px solid #0503a4;
-    color:#0503a4;
+    border: 1px solid #053898;
     background-color: transparent;
     padding: 5px 20px 5px 20px;
     text-decoration: none;
     text-align: center;
-    margin: 20px 0 120px;
 }
 
-button:hover {
+.button:hover {
     text-decoration: none;
-    background-color: #0503a4;
+    background-color: #053898;
     opacity: 1;
     cursor: crosshair;
     color: #ffffff;
 }
 
-button:visited {
+.button:visited {
     text-decoration: none;
 }
 
 ::selection {
     color:#ffffff;
-    background: #ff205a; /* WebKit/Blink Browsers */
+    background: #ff7770; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
     color:#ffffff;
-    background: #ff205a; /* Gecko Browsers */
+    background: #ff7770; /* Gecko Browsers */
 }
 
 /* ––––––––––––––––––––––––––––
@@ -193,7 +185,7 @@ nav{
 }
 
 .hero {
-   background-color: #0503a4; 
+   background-color: #053898; 
     opacity: 0;
     height:110vh;
 }
@@ -267,7 +259,7 @@ nav{
     left: 55px;
     text-align: right;
     white-space: nowrap;
-    color: #0503a4;
+    color: #053898;
     z-index: 1;
     display: none;
     -moz-transform-origin: 0% 100%;
@@ -330,8 +322,8 @@ nav{
 }
 
 .continue {
-    border: 1px solid #0503a4;
-    color:#0503a4;
+    border: 1px solid #053898;
+    color:#053898;
     background-color: transparent;
     padding: 5px 20px 5px 20px;
     margin-top: 10px;
@@ -344,7 +336,7 @@ nav{
 
 .continue:hover {
     text-decoration: none;
-    background-color: #0503a4;
+    background-color: #053898;
     opacity: 1;
     cursor: crosshair;
     color: #ffffff;
@@ -370,7 +362,7 @@ nav{
     left:       0;
     height:     100%;
     width:      100%;
-    background: #0503a4
+    background: #053898
                 url('../img/ajax-loader.gif') 
                 50% 50% 
                 no-repeat;
@@ -401,7 +393,7 @@ body {
 
 p {
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 
 h1 {
@@ -409,7 +401,6 @@ h1 {
 }
 
 h2 {
-    line-height: 1.5rem;
 }
 
 h3 {
