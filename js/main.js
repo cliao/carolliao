@@ -282,11 +282,11 @@ $('.scroll').on('click', function(e){
   
   if ($(window).scrollTop() > 50 ){
     
-    $('.hero').removeClass('show');
+    $('.hero, .projecthero').removeClass('show');
     
   } else {
     
-    $('.hero').addClass('show');
+    $('.hero, .projecthero').addClass('show');
     
   };    
 });
@@ -298,6 +298,8 @@ $('.scroll').on('click', function(e){
       scrollTop : $(this.hash).offset().top
     }, 0);
 });
+
+
 
 // 
 // PRELOADER

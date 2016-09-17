@@ -105,13 +105,17 @@ Main components
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
+  color: #ff7770;
+  border-color: #ff7770;
 }
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #005FA0;
-
+}
+.no-touch #cd-vertical-nav a:hover.is-selected .cd-dot {
+  background-color: #ff7770;
 }
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
