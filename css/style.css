@@ -35,16 +35,12 @@ img {
 }
 
 .toplg {
-    margin-top: 20px;
-}
-
-.hrspace {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 hr {
     margin: 10px 0 25px 0;
-    border-color: #292929;
+    border-color: #D6D6D6;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -127,6 +123,7 @@ h6 {
     text-align: center;
     border-radius: 30px;
 }
+
 
 .button:hover {
     text-decoration: none;
@@ -215,23 +212,11 @@ nav{
 
 .projecthero {
     opacity: 0;
-    height:55vh;
+    position: fixed;
+    height: auto;
+
 }
 
-.projecthero::before {
-    /* pseudo element */
-    content: ' ';
-    position: absolute;
-    background-position: center top;
-    width: 100%;
-    opacity: 0; /* for transition animations */
-}
-
-#monolith{
-    background-image: url("../img/monolith-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .details {
     visibility: hidden;
@@ -302,6 +287,10 @@ nav{
     margin-top: -20vh;
 }
 
+#statement{
+    margin-bottom: 300px;
+}
+
 #about{
     padding: 110px 0 140px 0;
 }
@@ -320,6 +309,10 @@ nav{
 
 #section6{
     background-color: #F4F6F9;
+}
+
+.footer {
+    margin: 10px 0 80px;
 }
 
 
@@ -453,5 +446,6 @@ h6 {
 .toplg{
     margin-top: 350px;
 }
+
 
 }

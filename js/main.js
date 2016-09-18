@@ -235,7 +235,7 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
 // # = The point you would like to fade the blue nav in.
   
-  if ($(window).scrollTop() > 70 ){
+  if ($(window).scrollTop() > 250 ){
     
     $('.fade').addClass('show');
     
@@ -280,7 +280,7 @@ $('.scroll').on('click', function(e){
  $(window).scroll(function() {
 // # = The point you would like to fade the hero out.
   
-  if ($(window).scrollTop() > 50 ){
+  if ($(window).scrollTop() > 70 ){
     
     $('.hero, .projecthero').removeClass('show');
     
@@ -296,7 +296,7 @@ $('.scroll').on('click', function(e){
     
   $('html, body').animate({
       scrollTop : $(this.hash).offset().top
-    }, 0);
+    }, 1500);
 });
 
 
