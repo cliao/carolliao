@@ -31,7 +31,7 @@ img {
 }
 
 .topmd{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .toplg {
@@ -216,7 +216,7 @@ nav{
 }
 
 .herotext{
-    padding-top: 100px;
+    padding-top: 20vh;
     color: #ffffff;  
     text-align: left;
 }
@@ -227,8 +227,12 @@ nav{
 
 .projecthero {
     opacity: 0;
-    position: fixed;
-    height: auto;
+    background-color: #F4F6F9;
+    margin: auto;
+}
+
+.nomargin{
+    margin-bottom: 0;
 }
 
 
@@ -425,7 +429,7 @@ h6 {
   nav{display: inline;}
 
 .herotext{
-    padding-top: 180px;
+    padding-top: 30vh;
 }
 
 .menu {
