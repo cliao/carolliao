@@ -8,7 +8,7 @@ body {
     background-color: #ffffff;
     max-width: 100%;
     overflow-x: hidden;
-    color: #053898;
+    color: #19227d;
     text-align: left;
 }
 
@@ -54,14 +54,14 @@ p {
 }
 
 a {
-    color: #053898;
+    color: #19227d;
     text-decoration: underline;
     text-align: left;
     font-family: 'Space Mono', sans-serif;
 }
 
 a:hover {
-    color: #ff7770;
+    color: #f1c3b8;
     cursor: crosshair;
 }
 
@@ -74,13 +74,13 @@ a:focused{
 }
 
 a:active {
-    color:#053898;
+    color:#19227d;
     text-decoration: none;
 }
 h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    color: #053898;
+    color: #19227d;
     margin-bottom: 14px;
 }
 h2 {
@@ -103,7 +103,7 @@ h5 {
     font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #053898;
+    color: #19227d;
     } 
 
 h6 {
@@ -116,7 +116,7 @@ h6 {
 
 .button {
     font-family: 'Space Mono', sans-serif;
-    border: 1px solid #053898;
+    border: 1px solid #19227d;
     background-color: transparent;
     padding: 6px 30px 6px 30px;
     text-decoration: none;
@@ -127,8 +127,8 @@ h6 {
 
 .button:hover {
     text-decoration: none;
-    background-color: #053898;
-    border-color: #053898;
+    background-color: #19227d;
+    border-color: #19227d;
     opacity: 1;
     cursor: crosshair;
     color: #ffffff;
@@ -140,11 +140,11 @@ h6 {
 
 ::selection {
     color:#ffffff;
-    background: #ff7770; /* WebKit/Blink Browsers */
+    background: #f1c3b8; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
     color:#ffffff;
-    background: #ff7770; /* Gecko Browsers */
+    background: #f1c3b8; /* Gecko Browsers */
 }
 
 /* ––––––––––––––––––––––––––––
@@ -190,16 +190,17 @@ nav{
     margin-left:25px;
 }
 
-.white a{
+/*.white a{
     color:#ffffff;
-}
+}*/
 
 .name {
     visibility: hidden;
 }
 
 .hero {
-   background-color: #053898; 
+   background-color: #f1c3b8; 
+   background-image: url("../img/bg.png");
     opacity: 0;
     height:110vh;
 }
@@ -217,17 +218,17 @@ nav{
 
 .herotext{
     padding-top: 20vh;
-    color: #ffffff;  
+    color: #19227d;  
     text-align: left;
 }
 
 .herotext a {
-    color:#ffffff;
+    color:#19227d;
 }
 
 .projecthero {
     opacity: 0;
-    background-color: #F4F6F9;
+    background-color: #fcf3f1;
     margin: auto;
 }
 
@@ -281,7 +282,7 @@ nav{
     left: 55px;
     text-align: right;
     white-space: nowrap;
-    color: #053898;
+    color: #19227d;
     z-index: 1;
     display: none;
     -moz-transform-origin: 0% 100%;
@@ -309,25 +310,19 @@ nav{
     margin-bottom: 300px;
 }
 
-#about{
-    padding: 110px 0 140px 0;
-}
-
 #contact{
     padding: 130px 0 140px 0;
 }
 
-#section2{
-    background-color: #F4F6F9;
+.cd-section{
+    background: #fcf3f1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #fcf3f1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #fcf3f1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #fcf3f1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #fcf3f1); /* Standard syntax */
 }
 
-#section4{
-    background-color: #F4F6F9;
-}
 
-#section6{
-    background-color: #F4F6F9;
-}
 
 .footer {
     margin: 10px 0 80px;
@@ -363,7 +358,7 @@ nav{
     left:       0;
     height:     100%;
     width:      100%;
-    background: #053898
+    background: #19227d
                 url('../img/ajax-loader.gif') 
                 50% 50% 
                 no-repeat;
@@ -394,11 +389,11 @@ body {
 
 p {
     font-size: 1rem;
-    line-height: 1.75rem;
+    line-height: 1.85rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 h2 {

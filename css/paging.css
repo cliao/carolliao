@@ -38,7 +38,7 @@ Main components
 @media only screen and (min-width: 768px) {
 .cd-section {
 
-  padding: 9rem 0 10rem;
+  padding: 9rem 0 6rem;
 }
 
 }
@@ -103,10 +103,10 @@ Main components
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: #005FA0;
+  background-color: #19227d;
 }
 .no-touch #cd-vertical-nav a:hover.is-selected .cd-dot {
-  background-color: #053898;
+  background-color: #19227d;
 }
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
@@ -123,7 +123,7 @@ Main components
   position: relative;
   margin-right: 10px;
   padding: .4em .4em;
-  color: #053898;
+  color: #19227d;
   font-size: 1rem;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
