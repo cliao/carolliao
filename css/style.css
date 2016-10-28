@@ -228,7 +228,7 @@ nav{
 
 .projecthero {
     opacity: 0;
-    background-color: #fcf3f1;
+    background-color: #F4F6F9;
     margin: auto;
 }
 
@@ -298,7 +298,8 @@ nav{
 /* ––––––––––––––––––––––––––––
    SECTIONS
    –––––––––––––––––––––––––––– */
-
+/*#top{ display: none; }
+*/
 #home {
 }
 
@@ -314,18 +315,19 @@ nav{
     padding: 130px 0 140px 0;
 }
 
-.cd-section{
-    background: #fcf3f1; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, #fcf3f1); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, #fcf3f1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, #fcf3f1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, #fcf3f1); /* Standard syntax */
+.home{
+    background: #F4F6F9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #F4F6F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #F4F6F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #F4F6F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #F4F6F9); /* Standard syntax */
 }
 
 
-
 .footer {
-    margin: 10px 0 80px;
+    padding: 10px 0 80px;
+    background-color: #292929;
+    color:#f1c3b8;
 }
 
 
@@ -384,9 +386,12 @@ body.loading .modal {
    –––––––––––––––––––––––––––– */
 
 @media (min-width: 768px) {
-body {
-}
-
+#top{
+    background: #19227d;
+    position: fixed;
+        top:0; left: 0; right: 0;
+        height: 10px;
+        }
 p {
     font-size: 1rem;
     line-height: 1.85rem;
