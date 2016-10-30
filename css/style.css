@@ -176,21 +176,45 @@ nav {
   background-color: transparent;
 }
 
-.white a {
+/*.white a {
   color: #fff;
-}
+}*/
 
 /* ––––––––––––––––––––––––––––
    HERO
    –––––––––––––––––––––––––––– */
 
 .hero {
-  background-color: #19227d;
+  background-color: #f1c3b8;
 /*   background-image: url("../img/bg.png");
 */
   opacity: 0;
   height: 110vh;
 }
+
+.hero::before {
+/* pseudo element */
+  content: ' ';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+/* to make it bigger than the viewport */
+  opacity: 0;
+/* for transition animations */
+}
+
+.herotext {
+  padding-top: 20vh;
+  color: #19227d;
+  text-align: left;
+}
+
+.herotext a {
+  color: #19227d;
+}
+
 
 /* ––––––––––––––––––––––––––––
    PROJECT PAGES
@@ -217,31 +241,6 @@ nav {
   text-align: center;
   font-weight: 700;
   letter-spacing: 1px;
-}
-
-
-
-.hero::before {
-/* pseudo element */
-  content: ' ';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 150%;
-/* to make it bigger than the viewport */
-  opacity: 0;
-/* for transition animations */
-}
-
-.herotext {
-  padding-top: 20vh;
-  color: #f1c3b8;
-  text-align: left;
-}
-
-.herotext a {
-  color: #f1c3b8;
 }
 
 .projecthero {
