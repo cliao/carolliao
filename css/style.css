@@ -190,7 +190,7 @@ nav {
 */
   opacity: 0;
   height: 110vh;
-}
+
 
 .hero::before {
 /* pseudo element */
