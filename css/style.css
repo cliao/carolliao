@@ -11,10 +11,6 @@ body {
   text-align: left;
 }
 
-.row {
-  margin-bottom: 1rem;
-}
-
 ol,ul {
   list-style: none;
 }
@@ -40,10 +36,6 @@ img {
   margin-top: 100px;
 }
 
-hr {
-  margin: 10px 0 25px;
-  border-color: #D6D6D6;
-}
 
 /* ––––––––––––––––––––––––––––
    TYPOGRAPHY
@@ -154,6 +146,10 @@ h6 {
 /* Gecko Browsers */
 }
 
+.center {
+  text-align: center;
+}
+
 /* ––––––––––––––––––––––––––––
    NAVIGATION
    –––––––––––––––––––––––––––– */
@@ -172,6 +168,34 @@ nav {
   padding-bottom: 10px;
 }
 
+.menu a {
+  margin-left: 25px;
+}
+
+.white {
+  background-color: transparent;
+}
+
+.white a {
+  color: #fff;
+}
+
+/* ––––––––––––––––––––––––––––
+   HERO
+   –––––––––––––––––––––––––––– */
+
+.hero {
+  background-color: #19227d;
+/*   background-image: url("../img/bg.png");
+*/
+  opacity: 0;
+  height: 110vh;
+}
+
+/* ––––––––––––––––––––––––––––
+   PROJECT PAGES
+   –––––––––––––––––––––––––––– */
+
 .menuproject {
   z-index: 1;
   position: fixed;
@@ -183,28 +207,8 @@ nav {
   padding-bottom: 10px;
 }
 
-.center {
-  text-align: center;
-}
-
-.white {
-  background-color: transparent;
-}
-
-.white a {
-  color: #fff;
-}
-
-.menu a {
-  margin-left: 25px;
-}
-
 .menuproject a {
   margin-left: 25px;
-}
-
-.name {
-  visibility: hidden;
 }
 
 .namehero {
@@ -215,13 +219,7 @@ nav {
   letter-spacing: 1px;
 }
 
-.hero {
-  background-color: #19227d;
-/*   background-image: url("../img/bg.png");
-*/
-  opacity: 0;
-  height: 110vh;
-}
+
 
 .hero::before {
 /* pseudo element */
