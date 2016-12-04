@@ -26,7 +26,7 @@ img {
     margin-top: 50px;
 }
 .toplg {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .topxl {
     margin-top: 100px;
@@ -37,7 +37,7 @@ img {
 
 p {
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     color: #292929;
 }
 a {
@@ -214,9 +214,10 @@ nav {
     opacity: 0;
     background-color: #F4F6F9;
     height: 500px;
+    padding-top: 40px;
 }
 .push {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .details {
     padding: 0;
@@ -272,7 +273,7 @@ nav {
    SECTIONS
    –––––––––––––––––––––––––––– */
 
-#home {} #work {
+#work {
     margin-top: -20vh;
 }
 #statement {
@@ -345,8 +346,15 @@ body.loading .modal {
 /* ––––––––––––––––––––––––––––
    MEDIA QUERIES
    –––––––––––––––––––––––––––– */
+/*for tablet*/
+@media (min-width: 768px) { 
+    .push {
+        margin-top: 100px;
+    }
+}
 
-@media (min-width: 768px) {
+/*for desktop*/
+@media (min-width: 992px) {
     p {
         font-size: 1rem;
         line-height: 1.85rem;
@@ -381,6 +389,9 @@ body.loading .modal {
     .menuproject {
         background-color: transparent;
         padding: 30px 60px 0;
+    }
+    .projecthero {
+        padding-top: 0;
     }
     .namehero {
     font-size: 6rem;
