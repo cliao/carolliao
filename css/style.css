@@ -140,10 +140,10 @@ nav {
     right: 0;
     left: 0;
     background-color: #fff;
-    padding-bottom: 10px;
+    padding: 10px 0 10px;
 }
 .menu a {
-    margin-left: 25px;
+    padding-left: 25px;
 }
 .white {
     background-color: transparent;
@@ -197,13 +197,14 @@ nav {
     right: 0;
     left: 0;
     background-color: #fff;
-    padding-bottom: 10px;
+    padding: 10px 0 10px;
 }
 .menuproject a {
-    margin-left: 25px;
+    padding-left: 25px;
 }
 .namehero {
-    font-size: 6rem;
+    font-size: 4rem;
+    line-height: 5rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -218,7 +219,6 @@ nav {
     margin-top: 100px;
 }
 .details {
-    visibility: hidden;
     padding: 0;
     margin-left: 0;
 }
@@ -347,14 +347,6 @@ body.loading .modal {
    –––––––––––––––––––––––––––– */
 
 @media (min-width: 768px) {
-    #top {
-        background: #19227d;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 10px;
-    }
     p {
         font-size: 1rem;
         line-height: 1.85rem;
@@ -386,18 +378,12 @@ body.loading .modal {
         background-color: transparent;
         padding: 30px 60px 0;
     }
-    .menu a {
-        margin-left: 40px;
-    }
     .menuproject {
         background-color: transparent;
         padding: 30px 60px 0;
     }
-    .menuproject a {
-        margin-left: 40px;
-    }
-    .name {
-        visibility: visible;
+    .namehero {
+    font-size: 6rem;
     }
     .nav {
         text-align: right;
