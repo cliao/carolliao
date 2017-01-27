@@ -211,7 +211,6 @@ nav {
     letter-spacing: 1px;
 }
 .projecthero {
-    opacity: 0;
     background-color: #F4F6F9;
     height: 500px;
     padding-top: 40px;
@@ -277,6 +276,7 @@ nav {
     margin-top: -20vh;
 }
 #statement {
+    margin-top: 46vh;
     margin-bottom: 300px;
 }
 #about {
@@ -365,7 +365,7 @@ body.loading .modal {
     }
     h2 {} h3 {
         font-size: 2rem;
-        line-height: 3rem;
+        line-height: 3.4rem;
     }
     h5 {} h6 {} img {} .photo {
         padding: 0;
