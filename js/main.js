@@ -255,29 +255,6 @@ $('.scroll').on('click', function(e){
 });
  
 
- $(window).scroll(function() {
-// # = The point you would like to fade the hero out.
-  
-  if ($(window).scrollTop() > 20 ){
-    
-    $('.projecthero').removeClass('show');
-    
-  } else {
-    
-    $('.projecthero').addClass('show');
-    
-  };    
-});
-
-$('.scroll').on('click', function(e){   
-    e.preventDefault()
-    
-  $('html, body').animate({
-      scrollTop : $(this.hash).offset().top
-    }, 1500);
-});
-
-
 
 // 
 // PRELOADER
