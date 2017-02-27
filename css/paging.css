@@ -97,16 +97,16 @@ Main components
 
 }
 .no-touch #cd-vertical-nav a:hover span {
-  border-color: #19227d;
+  border-color: #222daa;
 }
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: #19227d;
+  background-color: #222daa;
 }
 .no-touch #cd-vertical-nav a:hover.is-selected .cd-dot {
-  background-color: #19227d;
+  background-color: #222daa;
 }
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
@@ -115,7 +115,7 @@ Main components
   height: 10px;
   width: 10px;
   background-color: rgba(0, 0, 255, 0);
-  border: 1px solid #19227d;
+  border: 1px solid #222daa;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
 }
@@ -123,7 +123,7 @@ Main components
   position: relative;
   margin-right: 10px;
   padding: .4em .4em;
-  color: #19227d;
+  color: #222daa;
   font-size: .9rem;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;

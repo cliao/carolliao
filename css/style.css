@@ -8,7 +8,7 @@ body {
     background-color: #fff;
     max-width: 100%;
     overflow-x: hidden;
-    color: #19227d;
+    color: #222daa;
     text-align: left;
 }
 ol,
@@ -41,7 +41,7 @@ p {
     color: #292929;
 }
 a {
-    color: #19227d;
+    color: #222daa;
     text-decoration: underline;
     text-align: left;
     font-family: 'Space Mono', sans-serif;
@@ -57,13 +57,13 @@ a:focused {
     text-decoration: none;
 }
 a:active {
-    color: #19227d;
+    color: #222daa;
     text-decoration: none;
 }
 h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    color: #19227d;
+    color: #222daa;
     margin-bottom: 14px;
 }
 h2 {} h3 {
@@ -84,7 +84,7 @@ h5 {
     font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
     line-height: 1.8rem;
-    color: #19227d;
+    color: #222daa;
 }
 h6 {
     font-size: 1.5rem;
@@ -94,7 +94,7 @@ h6 {
 }
 /*.button {
     font-family: 'Space Mono', sans-serif;
-    border: 1px solid #19227d;
+    border: 1px solid #222daa;
     background-color: transparent;
     padding: 6px 30px;
     text-decoration: none;
@@ -103,8 +103,8 @@ h6 {
 }
 .button:hover {
     text-decoration: none;
-    background-color: #19227d;
-    border-color: #19227d;
+    background-color: #222daa;
+    border-color: #222daa;
     opacity: 1;
     cursor: crosshair;
     color: #fff;
@@ -174,11 +174,11 @@ nav {
 }
 .herotext {
     padding-top: 20vh;
-    color: #19227d;
+    color: #222daa;
     text-align: left;
 }
 .herotext a {
-    color: #19227d;
+    color: #222daa;
 }
 /* ––––––––––––––––––––––––––––
    PROJECT PAGES
@@ -251,7 +251,7 @@ nav {
     left: 55px;
     text-align: right;
     white-space: nowrap;
-    color: #19227d;
+    color: #222daa;
     z-index: 1;
     display: none;
     -moz-transform-origin: 0 100%;
@@ -295,7 +295,7 @@ nav {
 }
 .footer {
     padding: 100px 0 200px;
-    color: #19227d;
+    color: #222daa;
 }
 /* ––––––––––––––––––––––––––––
    PROJECTS
@@ -324,7 +324,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #19227d url(../img/ajax-loader.gif) 50% 50% no-repeat;
+    background: #222daa url(../img/ajax-loader.gif) 50% 50% no-repeat;
 }
 /* When the body has the loading class, we turn
    the scrollbar off with overflow:hidden */
