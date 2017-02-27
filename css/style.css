@@ -92,7 +92,7 @@ h6 {
     font-weight: 400;
     color: #292929;
 }
-.button {
+/*.button {
     font-family: 'Space Mono', sans-serif;
     border: 1px solid #19227d;
     background-color: transparent;
@@ -112,16 +112,11 @@ h6 {
 .button:visited {
     text-decoration: none;
 }
-::selection {
+::selection { 
     color: #fff;
     background: #f1c3b8;
-    /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-    color: #fff;
-    background: #f1c3b8;
-    /* Gecko Browsers */
-}
+}*/
+
 .center {
     text-align: center;
 }
