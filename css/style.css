@@ -72,6 +72,13 @@ h2 {} h3 {
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
+
+h3 a {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+}
+
 h4 {
     margin-top: 50px;
     letter-spacing: 1px;
@@ -125,7 +132,7 @@ nav {
     background-attachment: fixed;
     background-repeat: no-repeat;
     opacity: 0;
-    height: 150vh;
+    height: 200vh;
 }
 .background::before {
     /* pseudo element */
@@ -229,11 +236,11 @@ nav {
    –––––––––––––––––––––––––––– */
 
 #work {
-    margin-top: 10vh;
 }
+
 #statement {
-    padding-bottom: 100px;
-    margin-top: -140vh;
+    padding-bottom: 120px;
+    margin-top: -200vh;
 }
 #about {
     padding: 100px 0 0 0;
@@ -315,6 +322,7 @@ body.loading .modal {
         font-size: 2rem;
         line-height: 3.4rem;
     }
+
     h5 {} h6 {} img {} .photo {
         padding: 0;
         -webkit-box-shadow: -12px 12px 25px 0 rgba(0, 0, 0, 0.14);
