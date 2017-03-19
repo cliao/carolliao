@@ -18,6 +18,11 @@ img {
     width: 100%;
     margin-bottom: 80px;
 }
+
+::-moz-selection { background: #f1c3b8; color:white;}
+::selection { background: #f1c3b8; color:white;} 
+
+
 .topsm {
     margin-top: 20px;
 }
