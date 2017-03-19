@@ -5,7 +5,6 @@
 body {
     font-family: 'montserrat', sans-serif;
     font-size: 1rem;
-    background-color: #fff;
     max-width: 100%;
     overflow-x: hidden;
     color: #222daa;
@@ -31,6 +30,7 @@ img {
 .topxl {
     margin-top: 100px;
 }
+
 /* ––––––––––––––––––––––––––––
    TYPOGRAPHY
    –––––––––––––––––––––––––––– */
@@ -92,30 +92,6 @@ h6 {
     font-weight: 400;
     color: #292929;
 }
-/*.button {
-    font-family: 'Space Mono', sans-serif;
-    border: 1px solid #222daa;
-    background-color: transparent;
-    padding: 6px 30px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 30px;
-}
-.button:hover {
-    text-decoration: none;
-    background-color: #222daa;
-    border-color: #222daa;
-    opacity: 1;
-    cursor: crosshair;
-    color: #fff;
-}
-.button:visited {
-    text-decoration: none;
-}
-::selection { 
-    color: #fff;
-    background: #f1c3b8;
-}*/
 
 .center {
     text-align: center;
@@ -140,25 +116,18 @@ nav {
 .menu a {
     padding-left: 25px;
 }
-.white {
-    background-color: transparent;
-}
-/*.white a {
-  color: #fff;
-}*/
 /* ––––––––––––––––––––––––––––
    HERO
    –––––––––––––––––––––––––––– */
-
-.hero {
-    background-color: #f1c3b8;
-    /*   background-image: url("../img/bg.png");
-*/
-    
+.background {
+    background-image: url("../img/watercolor.png");
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     opacity: 0;
-    height: 110vh;
+    height: 150vh;
 }
-.hero::before {
+.background::before {
     /* pseudo element */
     
     content: ' ';
@@ -166,23 +135,22 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 150%;
+    height: 350%;
     /* to make it bigger than the viewport */
     
     opacity: 0;
     /* for transition animations */
 }
-.herotext {
-    padding-top: 20vh;
-    color: #222daa;
-    text-align: left;
-}
-.herotext a {
-    color: #222daa;
-}
+
 /* ––––––––––––––––––––––––––––
    PROJECT PAGES
    –––––––––––––––––––––––––––– */
+
+.projecthero {
+    background-color: #F4F6F9;
+    height: 500px;
+    padding-top: 40px;
+}
 
 .menuproject {
     z-index: 1;
@@ -205,18 +173,11 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
 }
-.projecthero {
-    background-color: #F4F6F9;
-    height: 500px;
-    padding-top: 40px;
-}
+
 .push {
     margin-top: 50px;
 }
-.details {
-    padding: 0;
-    margin-left: 0;
-}
+
 .fade {
     opacity: 0;
 }
@@ -268,31 +229,16 @@ nav {
    –––––––––––––––––––––––––––– */
 
 #work {
-    margin-top: -20vh;
+    margin-top: 10vh;
 }
 #statement {
-    margin-top: 46vh;
-    margin-bottom: 300px;
+    padding-bottom: 100px;
+    margin-top: -140vh;
 }
 #about {
     padding: 100px 0 0 0;
 }
-.home {
-    background: #F4F6F9;
-    /* For browsers that do not support gradients */
-    
-    background: -webkit-linear-gradient(white, #F4F6F9);
-    /* For Safari 5.1 to 6.0 */
-    
-    background: -o-linear-gradient(white, #F4F6F9);
-    /* For Opera 11.1 to 12.0 */
-    
-    background: -moz-linear-gradient(white, #F4F6F9);
-    /* For Firefox 3.6 to 15 */
-    
-    background: linear-gradient(white, #F4F6F9);
-    /* Standard syntax */
-}
+
 .footer {
     padding: 100px 0 200px;
     color: #222daa;
