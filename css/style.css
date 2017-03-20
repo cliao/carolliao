@@ -71,6 +71,16 @@ h1 {
     color: #222daa;
     margin-bottom: 14px;
 }
+
+h1 a {
+    font-family:'montserrat', sans-serif;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    font-family:'montserrat', sans-serif;
+    text-decoration: none;
+}
 h2 {} h3 {
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
