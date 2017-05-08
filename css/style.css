@@ -13,6 +13,7 @@ body {
 ol,
 ul {
     list-style: none;
+    padding: 0;
 }
 img {
     width: 100%;
@@ -46,7 +47,7 @@ img {
 }
 
 .bottomoverlap {
-    margin-top: -300px;
+    margin-top: 0px;
 }
 
 .topoverlap {
@@ -110,8 +111,8 @@ h1 a:hover {
 h2 {
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.6rem;
 } 
 
 h3 {
@@ -285,6 +286,9 @@ nav {
 }
 #about {
     padding: 100px 0 0 0;
+}
+
+#about a {
     text-decoration: underline;
 }
 
@@ -347,6 +351,10 @@ body.loading .modal {
 @media (min-width: 768px) { 
     .push {
         margin-top: 100px;
+    }
+
+    .bottomoverlap {
+    margin-top: -300px;
     }
 }
 
