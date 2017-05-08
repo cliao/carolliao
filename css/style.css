@@ -38,6 +38,29 @@ img {
 .container {
     max-width: 1200px;
 }
+.shadow {
+    padding: 0;
+    -webkit-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+    -moz-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+    box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
+}
+
+.bottomoverlap {
+    margin-top: -300px;
+}
+
+.topoverlap {
+    z-index: 1;
+}
+
+.bgcut{
+    background-color: #F6F8F9;
+    margin-top: -395px;
+    padding-top: 395px;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+
+}
 
 /* ––––––––––––––––––––––––––––
    TYPOGRAPHY
@@ -71,7 +94,6 @@ a:active {
 h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    color: #222daa;
     margin-bottom: 14px;
 }
 
@@ -84,11 +106,18 @@ h1 a:hover {
     font-family:'montserrat', sans-serif;
     text-decoration: none;
 }
-h2 {} h3 {
+
+h2 {
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 2rem;
+} 
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
 }
 
 
@@ -109,7 +138,6 @@ h5 {
     font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
     line-height: 1.8rem;
-    color: #222daa;
 }
 h6 {
     font-size: 1.5rem;
@@ -121,6 +149,17 @@ h6 {
 .center {
     text-align: center;
 }
+
+.right {
+    text-align: right;
+}
+
+.underline {
+    border-bottom: 5px solid currentColor;
+    display: inline-block;
+    line-height: 1.4;
+}
+
 /* ––––––––––––––––––––––––––––
    NAVIGATION
    –––––––––––––––––––––––––––– */
@@ -129,7 +168,7 @@ nav {
     display: none;
 }
 .menu {
-    z-index: 1;
+    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -145,34 +184,19 @@ nav {
    HERO
    –––––––––––––––––––––––––––– */
 .background {
-    background-image: url("../img/watercolor.png");
-    background-position: top center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: #222daa;
+    color: #ffffff;
     opacity: 0;
-    height: 200vh;
+    height: 90vh;
 }
-.background::before {
-    /* pseudo element */
-    
-    content: ' ';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150%;
-    /* to make it bigger than the viewport */
-    
-    opacity: 0;
-    /* for transition animations */
-}
+
 
 /* ––––––––––––––––––––––––––––
    PROJECT PAGES
    –––––––––––––––––––––––––––– */
 
 .projecthero {
-    background-color: #F4F6F9;
+    background-color: #F6F8F9;
     height: 500px;
     padding-top: 40px;
 }
@@ -258,15 +282,22 @@ nav {
 
 #statement {
     padding-bottom: 120px;
-    margin-top: -200vh;
 }
 #about {
     padding: 100px 0 0 0;
+    text-decoration: underline;
 }
 
-.footer {
-    padding: 100px 0 200px;
-    color: #222daa;
+#contact {
+    padding: 220px 0 50px;
+    margin-top: 200px;
+    color: #ffffff;
+    background-color: #0E172D;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 /* ––––––––––––––––––––––––––––
    PROJECTS
@@ -317,13 +348,6 @@ body.loading .modal {
     .push {
         margin-top: 100px;
     }
-
-    .footer {
-        background-image: url("../img/footer1.png");
-        background-position: bottom right;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
 }
 
 /*for desktop*/
@@ -334,10 +358,16 @@ body.loading .modal {
     }
     h1 {
         font-size: 2.4rem;
-        line-height: 3.2rem;
+        line-height: 3.4rem;
     }
-    h2 {} h3 {
-        font-size: 2rem;
+    h2 {
+        font-weight: 300;
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    } 
+
+    h3 {
+        font-size: 1.8rem;
         line-height: 3.4rem;
     }
 
