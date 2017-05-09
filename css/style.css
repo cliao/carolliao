@@ -17,7 +17,7 @@ ul {
 }
 img {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 ::-moz-selection { background: #f1c3b8; color:white;}
@@ -25,7 +25,7 @@ img {
 
 
 .topsm {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .topmd {
     margin-top: 50px;
@@ -36,14 +36,9 @@ img {
 .topxl {
     margin-top: 100px;
 }
+
 .container {
     max-width: 1200px;
-}
-.shadow {
-    padding: 0;
-    -webkit-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
-    -moz-box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
-    box-shadow: -12px 12px 25px 0px rgba(0,0,0,0.14);
 }
 
 .bottomoverlap {
@@ -58,9 +53,8 @@ img {
     background-color: #F6F8F9;
     margin-top: -395px;
     padding-top: 395px;
-    padding-bottom: 150px;
-    margin-bottom: 100px;
-
+    padding-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -94,7 +88,8 @@ a:active {
 }
 h1 {
     font-weight: 700;
-    font-size: 2.3rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     margin-bottom: 14px;
 }
 
@@ -128,13 +123,11 @@ h3 a {
 }
 
 h4 {
-    margin-top: 50px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: left;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
+
 h5 {
     font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
@@ -169,18 +162,27 @@ nav {
     display: none;
 }
 .menu {
-    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
     right: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 10px 0 10px;
+    z-index: 9999;
 }
 .menu a {
     padding-left: 25px;
 }
+
+.white {
+    background-color: transparent;
+}
+
+.white a{
+    color: #ffffff;
+}
+
 /* ––––––––––––––––––––––––––––
    HERO
    –––––––––––––––––––––––––––– */
@@ -189,6 +191,10 @@ nav {
     color: #ffffff;
     opacity: 0;
     height: 90vh;
+}
+
+.herotext {
+    padding-top: 15vh;
 }
 
 
@@ -203,7 +209,7 @@ nav {
 }
 
 .menuproject {
-    z-index: 1;
+    z-index: 9999;
     position: fixed;
     top: 0;
     width: 100%;
@@ -214,14 +220,6 @@ nav {
 }
 .menuproject a {
     padding-left: 25px;
-}
-.namehero {
-    font-size: 4rem;
-    line-height: 5rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .push {
@@ -263,7 +261,7 @@ nav {
     text-align: right;
     white-space: nowrap;
     color: #222daa;
-    z-index: 1;
+    z-index: 999;
     display: none;
     -moz-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
@@ -277,13 +275,20 @@ nav {
 /* ––––––––––––––––––––––––––––
    SECTIONS
    –––––––––––––––––––––––––––– */
+#hero {
+}
 
-#work {
+#hero a {
+    color: #ffffff;
 }
 
 #statement {
     padding-bottom: 120px;
 }
+
+#work {
+}
+
 #about {
     padding: 100px 0 0 0;
 }
@@ -293,8 +298,8 @@ nav {
 }
 
 #contact {
-    padding: 220px 0 50px;
-    margin-top: 200px;
+    padding: 30vh 0 20vh;
+    margin-top: 50px;
     color: #ffffff;
     background-color: #0E172D;
 }
@@ -313,42 +318,16 @@ nav {
     width: 90%;
     display: none;
 }
-/* ––––––––––––––––––––––––––––
-   PRELOADER
-   –––––––––––––––––––––––––––– */
-/* Start by setting display:none to make this hidden.
-   Then we position it in relation to the viewport window
-   with position:fixed. Width, height, top and left speak
-   speak for themselves. Background we set to 80% white with
-   our animation centered, and no-repeating */
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #222daa url(../img/ajax-loader.gif) 50% 50% no-repeat;
-}
-/* When the body has the loading class, we turn
-   the scrollbar off with overflow:hidden */
-
-body.loading {
-    overflow: hidden;
-}
-/* Anytime the body has the loading class, our
-   modal element will be visible */
-
-body.loading .modal {
-    display: block;
-}
 /* ––––––––––––––––––––––––––––
    MEDIA QUERIES
    –––––––––––––––––––––––––––– */
 /*for tablet*/
 @media (min-width: 768px) { 
+    .herotext {
+        padding-top: 20vh;
+    }
+
     .push {
         margin-top: 100px;
     }
@@ -365,8 +344,6 @@ body.loading .modal {
         line-height: 1.85rem;
     }
     h1 {
-        font-size: 2.4rem;
-        line-height: 3.4rem;
     }
     h2 {
         font-weight: 300;
@@ -394,10 +371,15 @@ body.loading .modal {
     .herotext {
         padding-top: 30vh;
     }
+
+    #contact {
+    margin-top: 200px;
+    }
     .menu {
         background-color: transparent;
         padding: 30px 60px 0;
     }
+
     .menuproject {
         background-color: transparent;
         padding: 30px 60px 0;
@@ -405,9 +387,14 @@ body.loading .modal {
     .projecthero {
         padding-top: 0;
     }
-    .namehero {
-    font-size: 6rem;
-    }
+
+    .bgcut{
+        margin-top: -395px;
+        padding-top: 395px;
+        padding-bottom: 150px;
+        margin-bottom: 100px;
+}
+
     .nav {
         text-align: right;
     }

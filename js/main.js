@@ -77,30 +77,11 @@ $('.scroll').on('click', function(e){
 
 
 // 
-// PRELOADER
-// 
-$body = $("body");
-
-$(document).on({
-    ajaxStart: function() { 
-      $body.addClass("loading");
-    },
-     ajaxStop: function() { 
-      $body.removeClass("loading"); 
-    }    
-});
-
-$(document).ajaxStart(function() {
-    alert('ok');
-});
-
-
-// 
 // FADE BG
 // 
 
  $(window).scroll(function() {
-// # = The point you would like to fade the white nav to blue.
+// # = The point you would like to fade the blue nav in
   
   if ($(window).scrollTop() > 200 ){
     
@@ -120,6 +101,30 @@ $('.scroll').on('click', function(e){
       scrollTop : $(this.hash).offset().top
     }, 1500);
 });
+
+ $(window).scroll(function() {
+// # = The point you would like to fade the white nav away
+  
+  if ($(window).scrollTop() > 200 ){
+    
+    $('.menu').removeClass('white');
+    
+  } else {
+    
+    $('.menu').addClass('white');
+    
+  };    
+});
+
+$('.scroll').on('click', function(e){   
+    e.preventDefault()
+    
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
+
+
 
  $(window).scroll(function() {
 // # = The point you would like to fade the hero out.
