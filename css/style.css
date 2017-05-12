@@ -31,6 +31,10 @@ img {
     color: white;
 }
 
+.cd-section {
+    padding: 0;
+}
+
 .topsm {
     margin-top: 30px;
 }
@@ -338,6 +342,11 @@ nav {
     text-decoration: underline;
 }
 
+#contact a:hover {
+    color: #f1c3b8;
+    ;
+}
+
 
 /* ––––––––––––––––––––––––––––
    PROJECTS
@@ -352,9 +361,56 @@ nav {
 
 
 /* ––––––––––––––––––––––––––––
-   MEDIA QUERIES
+   ABOUT ME
    –––––––––––––––––––––––––––– */
 
+.bg {
+    position: fixed;
+    top: 20vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    z-index: -1;
+    transition: .5s;
+    margin: auto;
+    width: 800px;
+    pointer-events: none;
+}
+
+.aboutimages li:first-child:hover~.bg {
+    background-image: url("../img/about/bsg.gif");
+}
+
+.aboutimages li:nth-child(2):hover~.bg {
+    background: blue;
+}
+
+.aboutimages li:nth-child(3):hover~.bg {
+    background-image: url("../img/about/lonelyisland.gif");
+}
+
+.aboutimages li:nth-child(4):hover~.bg {
+    background-image: url("../img/about/chetfaker.gif");
+}
+
+.aboutimages li:nth-child(5):hover~.bg {
+    background-image: url("../img/about/rickandmorty.gif");
+}
+
+.aboutimages li:nth-child(6):hover~.bg {
+    background: red;
+}
+
+.aboutimages li:nth-child(7):hover~.bg {
+    background-image: url("../img/about/food.gif");
+}
+
+
+/* ––––––––––––––––––––––––––––
+   MEDIA QUERIES
+   –––––––––––––––––––––––––––– */
 
 /*for tablet*/
 
@@ -366,10 +422,9 @@ nav {
         margin-top: 100px;
     }
     .bottomoverlap {
-        margin-top: -300px;
+        margin-top: -200px;
     }
 }
-
 
 /*for desktop*/
 
@@ -405,6 +460,9 @@ nav {
     }
     .herotext {
         padding-top: 30vh;
+    }
+    .bottomoverlap {
+        margin-top: -300px;
     }
     #contact {
         margin-top: 200px;
