@@ -19,21 +19,10 @@ Main components
 .cd-section {
   min-height: 100%;
   position: relative;
-  padding: 4rem 0 4rem;
+  padding: 1rem 0 2rem;
   
 }
-/*.cd-section:nth-of-type(odd) {
-  background-color: #3e3947;
-}
-.cd-section:nth-of-type(odd) p {
-  color: #898099;
-}
-.cd-section:nth-of-type(even) {
-  background-color: #745360;
-}
-.cd-section:nth-of-type(even) p {
-  color: #bda3ad;
-}*/
+
 
 @media only screen and (min-width: 768px) {
 .cd-section {

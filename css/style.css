@@ -31,10 +31,6 @@ img {
     color: white;
 }
 
-.cd-section {
-    padding: 0;
-}
-
 .topsm {
     margin-top: 30px;
 }
@@ -188,12 +184,13 @@ nav {
     right: 0;
     left: 0;
     background-color: #ffffff;
-    padding: 10px 0 10px;
+    padding: 10px 0 0px;
     z-index: 9999;
 }
 
-.menu a {
-    padding-left: 25px;
+.menu li {
+    padding: 0 20px 0 15px;
+    display: inline-block;
 }
 
 .white {
@@ -217,9 +214,12 @@ nav {
 }
 
 .herotext {
-    padding-top: 15vh;
+    padding-top: 25vh;
 }
 
+.herodetails {
+    display: none;
+}
 
 /* ––––––––––––––––––––––––––––
    PROJECT PAGES
@@ -239,11 +239,11 @@ nav {
     right: 0;
     left: 0;
     background-color: #fff;
-    padding: 10px 0 10px;
+    padding: 10px 0 0px;
 }
-
-.menuproject a {
-    padding-left: 25px;
+.menuproject li {
+    padding: 0 20px 0 15px;
+    display: inline-block;
 }
 
 .push {
@@ -365,46 +365,11 @@ nav {
    –––––––––––––––––––––––––––– */
 
 .bg {
-    position: fixed;
-    top: 20vh;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-repeat: no-repeat;
-    background-size: 800px;
-    z-index: -1;
-    transition: .5s;
-    margin: auto;
-    width: 800px;
-    pointer-events: none;
+    display: none;
 }
 
-.aboutimages li:first-child:hover~.bg {
-    background-image: url("../img/about/bsg.gif");
-}
-
-.aboutimages li:nth-child(2):hover~.bg {
-    background: blue;
-}
-
-.aboutimages li:nth-child(3):hover~.bg {
-    background-image: url("../img/about/lonelyisland.gif");
-}
-
-.aboutimages li:nth-child(4):hover~.bg {
-    background-image: url("../img/about/chetfaker.gif");
-}
-
-.aboutimages li:nth-child(5):hover~.bg {
-    background-image: url("../img/about/rickandmorty.gif");
-}
-
-.aboutimages li:nth-child(6):hover~.bg {
-    background: red;
-}
-
-.aboutimages li:nth-child(7):hover~.bg {
-    background-image: url("../img/about/food.gif");
+.aboutimages {
+    text-decoration: none;
 }
 
 
@@ -461,6 +426,9 @@ nav {
     .herotext {
         padding-top: 30vh;
     }
+    .herodetails {
+    display: block;
+    }
     .bottomoverlap {
         margin-top: -300px;
     }
@@ -485,9 +453,17 @@ nav {
         background-color: transparent;
         padding: 30px 60px 0;
     }
+    .menu li {
+    padding-left: 40px;
+    padding-right: 0;
+    }
     .menuproject {
         background-color: transparent;
         padding: 30px 60px 0;
+    }
+    .menuproject li {
+    padding-left: 40px;
+    padding-right: 0;
     }
     .projecthero {
         padding-top: 0;
@@ -497,6 +473,51 @@ nav {
     }
     .details {
         visibility: visible;
+    }
+    .aboutimages {
+        text-decoration: underline;
+    }
+    .aboutimages :hover{
+        cursor: crosshair;
+    }
+    .bg {
+        display: block;
+        position: fixed;
+        top: 20vh;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: 800px;
+        z-index: -1;
+        transition: .5s;
+        margin: auto;
+        width: 800px;
+        pointer-events: none;
+    }
+
+    .aboutimages li:first-child:hover~.bg {
+        background-image: url("../img/about/bsg.gif");
+    }
+
+    .aboutimages li:nth-child(2):hover~.bg {
+        background: blue;
+    }
+
+    .aboutimages li:nth-child(3):hover~.bg {
+        background-image: url("../img/about/lonelyisland.gif");
+    }
+
+    .aboutimages li:nth-child(4):hover~.bg {
+        background-image: url("../img/about/chetfaker.gif");
+    }
+
+    .aboutimages li:nth-child(5):hover~.bg {
+        background-image: url("../img/about/rickandmorty.gif");
+    }
+
+    .aboutimages li:nth-child(6):hover~.bg {
+        background-image: url("../img/about/food.gif");
     }
     .topsm {
         margin-top: 40px;
