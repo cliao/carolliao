@@ -501,7 +501,7 @@ nav {
     }
 
     .aboutimages li:nth-child(2):hover~.bg {
-        background: blue;
+        background-image: url("../img/about/type.gif");
     }
 
     .aboutimages li:nth-child(3):hover~.bg {
@@ -509,11 +509,11 @@ nav {
     }
 
     .aboutimages li:nth-child(4):hover~.bg {
-        background-image: url("../img/about/chetfaker.gif");
+        background-image: url("../img/about/rickandmorty.gif");
     }
 
     .aboutimages li:nth-child(5):hover~.bg {
-        background-image: url("../img/about/rickandmorty.gif");
+        background-image: url("../img/about/chetfaker.gif");
     }
 
     .aboutimages li:nth-child(6):hover~.bg {
