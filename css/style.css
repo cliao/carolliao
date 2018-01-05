@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-    color: #f1c3b8;
+    color: #ED5656;
     cursor: crosshair;
 }
 
@@ -121,12 +121,12 @@ h2 {
     font-family: 'montserrat', sans-serif;
     font-size: 1.7rem;
     line-height: 2.6rem;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1.2rem;
     line-height: 2rem;
-    font-weight: 300;
 }
 
 h3 a {
@@ -399,8 +399,7 @@ nav {
     }
     h1 {}
     h2 {
-        font-weight: 300;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         line-height: 3.4rem;
     }
     h3 {
