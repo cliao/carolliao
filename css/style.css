@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Space+Mono');
+
 /* ––––––––––––––––––––––––––––
    GENERAL STYLES
    –––––––––––––––––––––––––––– */
@@ -73,6 +75,7 @@ p {
     font-size: 1rem;
     line-height: 1.6rem;
     color: #292929;
+    font-weight: 400;
 }
 
 a {
@@ -101,9 +104,10 @@ a:active {
 }
 
 h1 {
+    font-family: 'montserrat', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 2.1rem;
+    line-height: 3rem;
     margin-bottom: 14px;
 }
 
@@ -113,19 +117,19 @@ h1 a {
 }
 
 h1 a:hover {
-    font-family: 'montserrat', sans-serif;
     text-decoration: none;
 }
 
 h2 {
     font-family: 'montserrat', sans-serif;
-    font-size: 1.7rem;
+    font-weight: 400;
+    font-size: 1.5rem;
     line-height: 2.6rem;
-    font-weight: 600;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.3rem;
     line-height: 2rem;
 }
 
@@ -136,6 +140,7 @@ h3 a {
 
 h4 {
     font-family: 'montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.2rem;
     line-height: 2rem;
 }
@@ -147,10 +152,6 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 400;
-    color: #292929;
 }
 
 .center {
@@ -342,7 +343,7 @@ nav {
 }
 
 #contact a:hover {
-    color: #f1c3b8;
+    color: #ED5656;
     ;
 }
 
@@ -397,10 +398,13 @@ nav {
         font-size: 1rem;
         line-height: 1.85rem;
     }
-    h1 {}
+    h1 {       
+        font-size: 2.1rem;
+        line-height: 3rem;
+    }
     h2 {
-        font-size: 2.2rem;
-        line-height: 3.4rem;
+        font-size: 2.1rem;
+        line-height: 3rem;
     }
     h3 {
         font-size: 1.8rem;
@@ -422,7 +426,7 @@ nav {
         display: inline;
     }
     .herotext {
-        padding-top: 30vh;
+        padding-top: 35vh;
     }
     .herodetails {
     display: block;
