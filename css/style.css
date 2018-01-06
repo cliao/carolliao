@@ -24,12 +24,12 @@ img {
 }
 
 ::-moz-selection {
-    background: #f1c3b8;
+    background: #ED5656;
     color: white;
 }
 
 ::selection {
-    background: #f1c3b8;
+    background: #ED5656;
     color: white;
 }
 
@@ -214,7 +214,7 @@ nav {
 }
 
 .herotext {
-    padding-top: 25vh;
+    padding-top: 30vh;
 }
 
 .herodetails {
@@ -428,7 +428,7 @@ nav {
         display: inline;
     }
     .herotext {
-        padding-top: 35vh;
+        padding-top: 30vh;
     }
     .herodetails {
     display: block;
