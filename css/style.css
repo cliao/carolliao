@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Space+Mono');
 
 /* ––––––––––––––––––––––––––––
    GENERAL STYLES
@@ -106,8 +106,8 @@ a:active {
 h1 {
     font-family: 'montserrat', sans-serif;
     font-weight: 700;
-    font-size: 2.1rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     margin-bottom: 14px;
 }
 
@@ -122,20 +122,20 @@ h1 a:hover {
 
 h2 {
     font-family: 'montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5rem;
-    line-height: 2.6rem;
+    line-height: 2.2rem;
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 2rem;
 }
 
 h3 a {
     font-family: 'montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h4 {
@@ -403,10 +403,12 @@ nav {
         line-height: 3rem;
     }
     h2 {
+        font-weight: 400;
         font-size: 2.1rem;
         line-height: 3rem;
     }
     h3 {
+        font-weight: 400;
         font-size: 1.8rem;
         line-height: 3.4rem;
     }
