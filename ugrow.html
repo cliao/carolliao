@@ -20,6 +20,8 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type="text/css">
         <link href="css/paging.css" rel="stylesheet"><!-- Resource style -->
+        <link rel="stylesheet" href="css/aos.css" /><!-- Animation style -->
+
 
     <!-- ––––––––––––––––––––––––––––
      JAVASCRIPT
@@ -47,6 +49,7 @@
               ga('create', 'UA-42166381-1', 'auto');
               ga('send', 'pageview');
         </script>
+        <script src="js/aos.js"></script> <!-- Animation script -->
     </head>
     <body>
         <!-- Menus -->
@@ -68,6 +71,7 @@
             Product designer
         </div><!-- Hero -->
         <div class="projecthero">
+          <div data-aos="fade-up">
             <div class="container">
                 <div class="col-sm-4 toplg">
                     <h5>
@@ -80,6 +84,7 @@
                 <div class="col-sm-8 topmd">
                     <img class="push" src="img/ugrow-0.png">
                 </div>
+              </div>
             </div>
         </div><!-- Project -->
         <section class="cd-section">
@@ -189,5 +194,14 @@
                   }
               });
         </script>
+        <!-- Animation script -->
+        <script>
+           AOS.init({
+             startEvent: 'load',
+             duration: 800,
+             delay: 120,
+             once: true,
+           });
+       </script>
     </body>
 </html>
