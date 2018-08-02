@@ -61,6 +61,12 @@ img {
     margin-bottom: 0px;
 }
 
+.preview img:hover{
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+
+}
+
 .solid {
     height: 0;
     top: 0;
